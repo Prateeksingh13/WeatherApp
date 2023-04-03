@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>JavaScript Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="rectangle1"></div>
+      <div class="rectangle3"></div>
+      <div class="navbar_nav">
+        <ul class="nav">
+          <li class="nav_home nav_active">Home</li>
+          <li class="nav_cities">Cities</li>
+          <li class="nav_news">News</li>
+        </ul>
+      </div>
+      <div class="rectangle2"></div>
+    </div>
+
+    <div class="cities">
+      
+      <p class="cities_heading">Cities</p>
+
+      <div class="cities_card">
+        <div class="card_c">
+          <div class="cardc_img">
+            <img src="./Images/Thunder.png" alt="Thunder">
+            <p class="cardc_heading">Thunder</p>
+          </div>
+          <div class="card_content card1">
+            <!-- <p class="cardc_temp">24</p>
+            <p class="cardc_temp_sign">o</p>
+            <p class="cardc_city" >Delhi</p>
+            <p class="cardc_date">9/10/10</p> -->
+          </div>
+        </div>
+
+        <div class="card_c">
+          <div class="cardc_img">
+            <img src="/Images/Cloudy.png" alt="Cloudy">
+            <p class="cardc_heading">Cloudy</p>
+          </div>
+          <div class="card_content card2">
+            <!-- <p class="cardc_temp">34</p>
+            <p class="cardc_temp_sign">o</p>
+            <p class="cardc_city">Chennai</p>
+            <p class="cardc_date">9/10/10</p> -->
+          </div>
+        </div>
+
+        <div class="card_c">
+          <div class="cardc_img">
+            <img src="./Images/sunny.jpg" alt="sunny">
+            <p class="cardc_heading">Sunny</p>
+          </div>
+          <div class="card_content card3">
+            <!-- <p class="cardc_temp">44</p>
+            <p class="cardc_temp_sign">o</p>
+            <p class="cardc_city">Maharashtra</p>
+            <p class="cardc_date">9/10/10</p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="search_bar">
+        <form action="javascript:return false">
+          <input type="search" placeholder="Search..."  id="city_Name"/>
+          <button type="submit" id="city_data" onclick="city()">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="earth" onclick="earthClick()">
+        <img class="earth_img" src="./Images/earth.png" alt="EarthImage" />
+    </div>
+
+    <div class="news_card">
+      <p class="news_heading">News</p>
+      <div class="all_news_card">
+        <div class="news_card1 news_c">
+          <img src="./Images/Thunder.png" alt="">
+          <button class="read_article">Read</button>
+          <p class="news_content">Thunder Strikes Delhi</p>
+        </div>
+        <div class="news_card2 news_c">
+          <img src="./Images/Cloudy.png" alt="">
+          <button class="read_article">Read</button>
+          <p class="news_content">Cloudstorms in manipur</p>
+        </div>
+        <div class="news_card3 news_c">
+          <img src="./Images/sunny.jpg" alt="">
+          <button class="read_article">Read</button>
+          <p class="news_content">It’s Summer season in Mumbai</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="weather_app">WeatherApp</p>
+      <div class="row">
+       <div class="footer_menu">
+        <ul>
+          <li>Home</li>
+          <li>Cities</li>
+          <li>News</li>
+        </ul>
+      </div>
+      <div class="footer_menu">
+        <ul>
+          <li>Contact US</li>
+          <li>FAQs</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

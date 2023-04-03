@@ -1,0 +1,618 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rectangle1 {
+  position: absolute;
+  background: url(./Images/Rectangle1BG.png);
+  height: 905px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.rectangle3 {
+  position: absolute;
+  height: 320px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.8;
+}
+
+.navbar_nav {
+  position: relative;
+  height: 30px;
+  top: 48px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nav {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav > li {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav_active {
+  font-weight: 600;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 516px;
+  height: 348px;
+  right: 100px;
+  top: 160px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  opacity: 0.8;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+
+.current_temp {
+  position: absolute;
+  width: 151px;
+  height: 192px;
+  left: 107px;
+  top: 669px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  line-height: 192px;
+  color: #ffffff;
+}
+
+.current_temp_cel {
+  position: absolute;
+  width: 31px;
+  height: 72px;
+  left: 258px;
+  top: 669px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.current_city {
+  position: absolute;
+  width: 221px;
+  height: 78px;
+  left: 301px;
+  top: 721px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+.current_time {
+  position: absolute;
+  width: 43px;
+  height: 21px;
+  left: 309px;
+  top: 788px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.current_day {
+  position: absolute;
+  width: 73px;
+  height: 21px;
+  left: 362px;
+  top: 788px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.current_date {
+  position: absolute;
+  width: 72px;
+  height: 21px;
+  left: 445px;
+  top: 788px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.current_weather_icon {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 537px;
+  top: 751px;
+}
+
+.weather {
+  position: absolute;
+  width: 199px;
+  height: 34px;
+  left: 40px;
+  top: 40px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.cloudy {
+  position: absolute;
+  width: 73px;
+  height: 27px;
+  left: 40px;
+  top: 110px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.cloudy_report {
+  position: absolute;
+  width: 36px;
+  height: 27px;
+  right: 40px;
+  top: 110px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.humidity {
+  position: absolute;
+  width: 92px;
+  height: 28px;
+  left: 40px;
+  top: 180px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.humidity_report {
+  position: absolute;
+  width: 41px;
+  height: 28px;
+  right: 40px;
+  top: 180px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.wind {
+  position: absolute;
+  width: 52px;
+  height: 26px;
+  left: 40px;
+  top: 250px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.wind_report {
+  position: absolute;
+  width: 68px;
+  height: 28px;
+  right: 45px;
+  top: 250px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.cities {
+  position: relative;
+  top: 875px;
+  height: 990px;
+  display: flex;
+  background-color: lavender;
+}
+
+.cities_heading {
+  position: absolute;
+  width: 138px;
+  height: 72px;
+  left: 610px;
+  top: 120px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #110041;
+}
+
+.cities_card {
+  position: absolute;
+  left: 210px;
+  top: 280px;
+  display: flex;
+  gap: 38px;
+}
+
+.card_c {
+  position: relative;
+  width: 293px;
+  height: 394px;
+  background: #ffffff;
+  box-shadow: 0px 16px 69px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.cardc_img > img {
+  position: absolute;
+  width: 293px;
+  height: 273px;
+  /* background: url(./Images/Thunder.png); */
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cardc_heading {
+  position: absolute;
+  width: 103px;
+  height: 36px;
+  left: 30px;
+  top: 218px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.card_content {
+  position: relative;
+}
+
+.cardc_temp {
+  position: absolute;
+  width: 80px;
+  height: 96px;
+  left: 35px;
+  top: 280px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  color: #000000;
+}
+
+.cardc_temp_sign {
+  position: absolute;
+  width: 16px;
+  height: 36px;
+  left: 110px;
+  top: 280px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.cardc_city {
+  position: absolute;
+  height: 36px;
+  right: 35px;
+  top: 300px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.cardc_date {
+  position: absolute;
+  width: 64px;
+  height: 24px;
+  right: 30px;
+  top: 332px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.card_c:hover {
+  transform: scale(1.1);
+  transition: transform 2s;
+}
+
+form {
+  position: absolute;
+  width: 661px;
+  height: 76px;
+  left: 345px;
+  top: 800px;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input[type="search"] {
+  border: none;
+  width: 661px;
+  height: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 30px; */
+}
+
+input[type="search"]::placeholder {
+  color: #bbb;
+}
+
+input[type="search"]:focus {
+  outline: none;
+}
+
+button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  background-size: 25px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button[type="submit"]:hover {
+  opacity: 1;
+}
+
+.earth {
+  position: relative;
+  width: 100%;
+  height: 711px;
+  left: 0px;
+  top: 875px;
+  background: #010101;
+  overflow: hidden;
+}
+
+
+.earth_img{
+  position: absolute;
+  width: 712px;
+  height: 712px;
+  left: 350px;
+  top: 0px;
+  /* background: url(./Images/earth.png); */
+}
+
+/* .earth_img:hover{
+    transform: scale(2.5);
+    transition: transform 2s;
+}
+
+.earth_container:hover{
+    background: url(./Images/earth1.png);
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+.news_card {
+  position: relative;
+  top: 875px;
+  height: 990px;
+}
+
+.news_heading {
+  position: absolute;
+  width: 132px;
+  height: 72px;
+  left: 610px;
+  top: 86px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: #110041;
+}
+
+.all_news_card {
+  position: absolute;
+  left: 110px;
+  top: 280px;
+  display: flex;
+  gap: 38px;
+}
+
+.news_c > img {
+  width: 293px;
+  height: 395px;
+  border-radius: 20px;
+}
+
+.read_article {
+  position: relative;
+  top: -220px;
+  left: 100px;
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  opacity: 0;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 15px;
+  /* background-color: rebeccapurple; */
+}
+
+.read_article:hover {
+  box-shadow: 0 12px 16px 0 rgba(248, 252, 254, 0.8),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.news_c:hover .read_article {
+  opacity: 1;
+}
+
+.news_content {
+  position: relative;
+  width: 250px;
+  height: 67px;
+  left: 20px;
+  top: -150px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  top: 840px;
+  background: #000000;
+}
+
+.weather_app {
+  position: absolute;
+  width: 141px;
+  height: 36px;
+  left: 80px;
+  top: 80px;
+
+  font-family: "Phenomicon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.row {
+  position: absolute;
+  top: 70px;
+  right: 120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_menu {
+  width: 80px;
+  color: #ffffff;
+}
+
+.footer_menu > ul {
+  list-style: none;
+}
+
+.footer_menu > ul > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
