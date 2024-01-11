@@ -1,16 +1,8 @@
-@media screen and (max-width: 479px) {
-  .rectangle1 {
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .rectangle3 {
-    height: 50px;
-  }
-
+@media screen and (max-width: 600px) {
+  
   .navbar_nav {
-    font-size: 6px;
-    top: 0px;
+    font-size: 1rem;
+    top: 0.75rem;
   }
 
   .nav > li {
@@ -18,296 +10,135 @@
     margin-right: 10px;
   }
 
-  .rectangle2 {
-    top: 40px;
-    height: 90px;
-    width: 125px;
-    right: 25px;
-    border-radius: 3px;
-  }
-
-  .current_temp {
-    font-size: 30px;
-    top: 105px;
-    left: 30px;
-    color: #fff;
-  }
-
-  .current_temp_cel {
-    font-size: 15px;
-    top: 150px;
-    left: 65px;
-    color: #fff;
-  }
-
-  .current_city {
-    font-size: medium;
-    top: 158px;
-    left: 80px;
-    color: #fff;
-  }
-
-  .current_time {
-    top: 198px;
-    left: 82px;
-    font-size: 5px;
-    color: #fff;
-  }
-
-  .current_day {
-    top: 198px;
-    left: 98px;
-    font-size: 5px;
-    color: #fff;
-  }
-
-  .current_date {
-    top: 198px;
-    left: 120px;
-    width: 20px;
-    font-size: 5px;
-    color: #fff;
-  }
-
-  .current_weather_icon {
-    left: 152px;
-    top: 195px;
-  }
-
-  .current_weather_icon > img {
-    width: 15px;
-  }
-
-  .weather {
-    top: 0px;
-    font-size: 6px;
-    left: 15px;
-    width: 50px;
-    right: 0px;
-    color: #fff;
-  }
-
-  .cloudy {
-    top: 25px;
-    font-size: 5px;
-    left: 15px;
-    color: #fff;
-  }
-
-  .cloudy_report {
-    top: 25px;
-    font-size: 5px;
-    left: 100px;
-    color: #fff;
-  }
-
-  .humidity {
-    top: 40px;
-    font-size: 5px;
-    left: 15px;
-    color: #fff;
-  }
-
-  .humidity_report {
-    top: 40px;
-    font-size: 5px;
-    left: 100px;
-    color: #fff;
-  }
-
-  .wind {
-    top: 55px;
-    font-size: 5px;
-    left: 15px;
-    color: #fff;
-  }
-
-  .wind_report {
-    top: 55px;
-    width: 20px;
-    font-size: 5px;
-    left: 90px;
-    color: #fff;
-  }
-
-  .cities {
-    top: 206px;
-    height: 320px;
-  }
-
-  .cities_heading {
-    font-size: smaller;
-    left: 180px;
-    top: 8px;
-  }
-
-  .cities_card {
-    left: 30px;
-    top: 60px;
-    gap: 15px;
-  }
-
-  .card_c {
-    width: 100px;
-    height: 140px;
-    border-radius: 3px;
-  }
-
-  .cardc_img > img {
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-    border-radius: 3px 3px 0px 0px;
-  }
-
-  .cardc_heading {
-    top: 70px;
-    left: 10px;
-    font-size: 8px;
-  }
-
-  .cardc_temp {
-    top: 73px;
-    left: 10px;
-    font-size: 20px;
-  }
-
-  .cardc_temp_sign {
-    top: 92px;
-    left: 34px;
-    font-size: 10px;
-  }
-
-  .cardc_city {
-    top: 98px;
-    /* left: 65px; */
-    right: 8px;
-    font-size: 7px;
-  }
-
-  .cardc_date {
-    top: 115px;
-    left: 65px;
-    font-size: 8px;
-  }
-
-  form {
-    top: 250px;
-    left: 70px;
-    width: 250px;
-    height: 30px;
-    border-radius: 8px;
-    padding-left: 20px;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  input[type="search"] {
-    width: 200px;
-    border-radius: 20px;
-    height: 30px;
-    left: 10px;
-    font-size: 8px;
-  }
-
-  button[type="submit"] {
-    background-size: 10px;
-  }
-
-  .earth{
-    top: 206px;
-    height: 200px;
-  }
-
-  .earth_img{
-    top: 10px;
-    width: 180px;
-    height: 180px;
-    left: 110px;
-  }
-
-  .news_card {
-    top: 205px;
-    height: 280px;
-    background-color: lavender;
-  }
-
-  .news_heading {
-    left: 180px;
-    top: 8px;
-    font-size: smaller;
-  }
-
-  .all_news_card {
-    left: 30px;
-    top: 60px;
-    gap: 15px;
-    width: 100px;
-    height: 140px;
-  }
-  
-  .news_c > img {
-    width: 100px;
-    height: 140px;
+  .weatherInfo {
+    top: 5rem;
+    height: 7rem;
+    width: 11rem;
+    right: 5%;
     border-radius: 5px;
   }
 
-  .read_article {
-    position: relative;
-    top: -80px;
-    left: 30px;
-    width: 40px;
-    height: 20px;
-    background: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    opacity: 0;
-    font-size: 9px;
-    /* background-color: rebeccapurple; */
+  .data{
+    top: 15%;
+    padding-left: 1rem;
   }
-  
-  .read_article:hover {
-    box-shadow: 0 12px 16px 0 rgba(248, 252, 254, 0.8),0 17px 50px 0 rgba(0,0,0,0.19);
+  .current_temp{
+    font-size: 3rem;
   }
-  
-  .news_c:hover .read_article {
-    opacity: 1;
+  .current_temp_cel{
+    top: -30px;
+    font-size: 1.5rem;
   }
-
-  .news_content {
-    top: -60px;
-    left: 4px;
-    width: 70px;
-    line-height: 10px;
-    font-size: 7px;
+  .current_city{
+    left: 100px;
+    top: 50px;
+    font-size: 2rem;
   }
-
-  .footer {
-    top: 205px;
-    height: 120px;
-  }
-
-  .weather_app {
-    top: 30px;
-    left: 20px;
+  .current_time{
     font-size: 12px;
+    left: 100px;
+  }
+  .current_day{
+    font-size: 12px;
+    left: 130px;
   }
 
-  .row {
-    top: 30px;
-    right: 30px;
+  .current_date{
+    font-size: 12px;
+    left: 190px;
   }
 
-  .footer_menu {
-    width: 60px;
-    padding-left: 20px;
-    font-size: 6px;
+  .weather{
+    font-size: 12px;
+    left: 5%;
+    top: 0;
   }
 
-  .footer_menu > ul > li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+  .cloudy{
+    font-size: 12px;
+    left: 10%;
+    top: 20%;
   }
 
+  .cloudy_report{
+    font-size: 12px;
+    top: 20%;
+    right: 10%;
+  }
+
+  .humidity{
+    font-size: 12px;
+    top: 45%;
+    left: 10%;
+  }
+
+  .humidity_report{
+    font-size: 12px;
+    top: 45%;
+    right: 10%;
+  }
+
+  .wind{
+    font-size: 12px;
+    left: 10%;
+    top: 70%;
+  }
+
+  .wind_report{
+    font-size: 12px;
+    right: 10%;
+    top: 70%;
+  }
+
+  .cities {
+    min-height: 200vh;
+  }
+
+  .cities_card {
+    margin-top: 2.5rem;
+    top: 40%;
+    gap: 3.5rem;
+    flex-direction: column;
+  }
+
+  .search_bar {
+    top: calc(50% + 550px);
+  }
+
+  form {
+    width: 350px;
+  }
+
+  .earth{
+    min-height: 60vh;
+  }
+
+  .earth_img{
+    width: 100%;
+    top: 10%;
+  }
+
+  .all-news-cards {
+    flex-direction: column;
+  }
+
+  .news-card {
+    min-height: 200vh;
+  }
+
+  .all-news-cards {
+    top: 50%;
+    gap: 2rem;
+  }
+
+  .weather_app{
+    left: 40px;
+    top: 80px;
+    font: 400 24px/24px "Phenomicon";
+  }
+
+  .row{
+    right: 40px;
+  }
 }
+
